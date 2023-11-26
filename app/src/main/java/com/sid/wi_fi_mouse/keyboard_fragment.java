@@ -24,10 +24,6 @@ import androidx.fragment.app.Fragment;
 
 import java.io.PrintWriter;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class keyboard_fragment extends Fragment {
 
     Button a;
@@ -78,51 +74,50 @@ public class keyboard_fragment extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view= inflater.inflate(R.layout.fragment_keyboard_fragment, container, false);
+        View view = inflater.inflate(R.layout.fragment_keyboard_fragment, container, false);
 
-        space=(Button)view.findViewById(R.id.space);
-        bckspce=(Button)view.findViewById(R.id.bckspce);
-        enter=(Button)view.findViewById(R.id.enter);
+        space = (Button) view.findViewById(R.id.space);
+        bckspce = (Button) view.findViewById(R.id.bckspce);
+        enter = (Button) view.findViewById(R.id.enter);
 
-        a=(Button)view.findViewById(R.id.buttonA);
-        b=(Button)view.findViewById(R.id.buttonB);
-        c=(Button)view.findViewById(R.id.buttonC);
-        d=(Button)view.findViewById(R.id.buttonD);
-        e=(Button)view.findViewById(R.id.buttonE);
-        f=(Button)view.findViewById(R.id.buttonF);
-        g=(Button)view.findViewById(R.id.buttonG);
-        h=(Button)view.findViewById(R.id.buttonH);
-        i=(Button)view.findViewById(R.id.buttonI);
-        j=(Button)view.findViewById(R.id.buttonJ);
-        k=(Button)view.findViewById(R.id.buttonK);
-        l=(Button)view.findViewById(R.id.buttonL);
-        m=(Button)view.findViewById(R.id.buttonM);
-        n=(Button)view.findViewById(R.id.buttonN);
-        o=(Button)view.findViewById(R.id.buttonO);
-        p=(Button)view.findViewById(R.id.buttonP);
-        q=(Button)view.findViewById(R.id.buttonQ);
-        r=(Button)view.findViewById(R.id.buttonR);
-        s=(Button)view.findViewById(R.id.buttonS);
-        t=(Button)view.findViewById(R.id.buttonT);
-        u=(Button)view.findViewById(R.id.buttonU);
-        v=(Button)view.findViewById(R.id.buttonV);
-        w=(Button)view.findViewById(R.id.buttonW);
-        x=(Button)view.findViewById(R.id.buttonX);
-        y=(Button)view.findViewById(R.id.buttonY);
-        z=(Button)view.findViewById(R.id.buttonZ);
-        one=(Button)view.findViewById(R.id.button1);
-        two=(Button)view.findViewById(R.id.button2);
-        three=(Button)view.findViewById(R.id.button3);
-        four=(Button)view.findViewById(R.id.button4);
-        five=(Button)view.findViewById(R.id.button5);
-        six=(Button)view.findViewById(R.id.button6);
-        seven=(Button)view.findViewById(R.id.button7);
-        eight=(Button)view.findViewById(R.id.button8);
-        nine=(Button)view.findViewById(R.id.button9);
-        zero=(Button)view.findViewById(R.id.button0);
+        a = (Button) view.findViewById(R.id.buttonA);
+        b = (Button) view.findViewById(R.id.buttonB);
+        c = (Button) view.findViewById(R.id.buttonC);
+        d = (Button) view.findViewById(R.id.buttonD);
+        e = (Button) view.findViewById(R.id.buttonE);
+        f = (Button) view.findViewById(R.id.buttonF);
+        g = (Button) view.findViewById(R.id.buttonG);
+        h = (Button) view.findViewById(R.id.buttonH);
+        i = (Button) view.findViewById(R.id.buttonI);
+        j = (Button) view.findViewById(R.id.buttonJ);
+        k = (Button) view.findViewById(R.id.buttonK);
+        l = (Button) view.findViewById(R.id.buttonL);
+        m = (Button) view.findViewById(R.id.buttonM);
+        n = (Button) view.findViewById(R.id.buttonN);
+        o = (Button) view.findViewById(R.id.buttonO);
+        p = (Button) view.findViewById(R.id.buttonP);
+        q = (Button) view.findViewById(R.id.buttonQ);
+        r = (Button) view.findViewById(R.id.buttonR);
+        s = (Button) view.findViewById(R.id.buttonS);
+        t = (Button) view.findViewById(R.id.buttonT);
+        u = (Button) view.findViewById(R.id.buttonU);
+        v = (Button) view.findViewById(R.id.buttonV);
+        w = (Button) view.findViewById(R.id.buttonW);
+        x = (Button) view.findViewById(R.id.buttonX);
+        y = (Button) view.findViewById(R.id.buttonY);
+        z = (Button) view.findViewById(R.id.buttonZ);
+        one = (Button) view.findViewById(R.id.button1);
+        two = (Button) view.findViewById(R.id.button2);
+        three = (Button) view.findViewById(R.id.button3);
+        four = (Button) view.findViewById(R.id.button4);
+        five = (Button) view.findViewById(R.id.button5);
+        six = (Button) view.findViewById(R.id.button6);
+        seven = (Button) view.findViewById(R.id.button7);
+        eight = (Button) view.findViewById(R.id.button8);
+        nine = (Button) view.findViewById(R.id.button9);
+        zero = (Button) view.findViewById(R.id.button0);
 
         a.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -16,8 +16,6 @@ package com.sid.wi_fi_mouse;
 
 
 public class Constants {
-    //public static String SERVER_IP="192.168.43.158";
-    //public static int SERVER_PORT=9159;
     public static String SERVER_IP="192.168.43.158";
     public static int SERVER_PORT=9159;
     public static final String MOUSE_LEFT_CLICK="left_click";
