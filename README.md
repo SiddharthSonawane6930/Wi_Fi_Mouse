@@ -8,7 +8,8 @@ Welcome to "Wi-Fi Mouse App"
 
 
 
-![Screenshot (117)](https://user-images.githubusercontent.com/111168325/224553908-223581c0-e4fd-4500-a437-bb411825f6f8.png)
+![Screenshot (117)](https://github.com/SiddharthSonawane6930/Wi_Fi_Mouse/blob/master/app/Scr/AppSS1%20(1).jpg?raw=true)
+
 
 ![Screenshot (118)](https://user-images.githubusercontent.com/111168325/224553911-06664000-1cd5-4364-b66a-80d9dad48947.png)
 
