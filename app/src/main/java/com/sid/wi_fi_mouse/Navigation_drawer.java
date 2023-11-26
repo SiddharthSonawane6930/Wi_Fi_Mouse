@@ -170,6 +170,7 @@ public class Navigation_drawer extends AppCompatActivity
 
             startActivity(new Intent(Navigation_drawer.this,Connect.class));
             this.finish();
+
         }
 
  
